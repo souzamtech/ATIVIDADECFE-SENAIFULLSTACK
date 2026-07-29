@@ -1,0 +1,88 @@
+/* ===== Configuração visual da loja em tema azul escuro ===== */
+body {
+    background-color: #0b1220 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Personalização da barra superior do site */
+.bg-black {
+    background-color: #071018 !important;
+}
+
+.border-purple {
+    border-color: #00B4D8 !important;
+}
+
+.text-purple {
+    color: #00B4D8 !important;
+}
+
+/* Estilo dos botões principais com efeito ao passar o mouse */
+.btn-outline-purple {
+    color: #00B4D8;
+    border-color: #00B4D8;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-purple:hover {
+    background-color: #00B4D8;
+    color: #071018;
+    box-shadow: 0 0 12px #00B4D8;
+}
+
+/* Ajustes da área principal e dos cartões de produtos */
+.linha-titulo {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: 0 0 8px #00B4D8;
+}
+
+.bg-black-transparente {
+    background-color: rgba(7, 16, 24, 0.8);
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-purple {
+    background-color: #0077B6;
+    color: #ffffff;
+    border: 1px solid #00B4D8;
+}
+
+.btn-purple:hover {
+    background-color: #00B4D8;
+    color: #071018;
+}
+
+/* Aparência dos campos utilizados nos formulários */
+.form-control {
+    background-color: #14213d !important;
+    border: 1px solid #2d3e50 !important;
+    color: #ffffff !important;
+}
+
+/* Ajustes para telas menores, como tablets e celulares */
+@media (max-width: 768px) {
+    .linha-titulo {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption {
+        display: none !important;
+    }
+}
+
+/* Destaque visual aplicado aos cards durante a interação */
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #00B4D8 !important;
+    box-shadow: 0 0 15px rgba(0, 180, 216, 0.6);
+    transition: all 0.3s ease;
+}
